@@ -1,4 +1,5 @@
 import pRetry from "p-retry";
+import { execFileSync } from "child_process";
 
 export interface CodebergRepo {
   id: number;
@@ -12,6 +13,7 @@ export interface CodebergClientOptions {
   token: string;
   org: string;
   baseUrl?: string;
+  isOrg?: boolean;
 }
 
 export interface CreateRepoOption {
@@ -26,11 +28,13 @@ export class CodebergClient {
   private token: string;
   private org: string;
   private baseUrl: string;
+  private isOrg: boolean;
 
   constructor(options: CodebergClientOptions) {
     this.token = options.token;
     this.org = options.org;
     this.baseUrl = options.baseUrl ?? "https://codeberg.org/api/v1";
+    this.isOrg = options.isOrg ?? false;
   }
 
   private async request<T>(
@@ -40,28 +44,44 @@ export class CodebergClient {
   ): Promise<T> {
     const url = `${this.baseUrl}${path}`;
 
-    const response = await fetch(url, {
-      method,
-      headers: {
-        Authorization: `token ${this.token}`,
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: body ? JSON.stringify(body) : undefined,
-    });
+    const args: string[] = [
+      "-s", "-w", "\n%{http_code}",
+      "-X", method,
+      "-H", `Authorization: token ${this.token}`,
+      "-H", "Content-Type: application/json",
+      "-H", "Accept: application/json",
+    ];
 
-    if (!response.ok) {
-      const errorText = await response.text();
+    if (body) {
+      args.push("-d", JSON.stringify(body));
+    }
+
+    args.push(url);
+
+    let output: string;
+    try {
+      output = execFileSync("curl", args, {
+        encoding: "utf-8",
+        timeout: 30000,
+      }).trim();
+    } catch (err: any) {
+      throw new Error(`curl request failed: ${err.message}`);
+    }
+
+    const lines = output.split("\n");
+    const statusCode = parseInt(lines[lines.length - 1], 10);
+    const responseBody = lines.slice(0, -1).join("\n");
+
+    if (statusCode < 200 || statusCode >= 300) {
       const error = new Error(
-        `Codeberg API error: ${response.status} ${response.statusText} - ${errorText}`,
+        `Codeberg API error: ${statusCode} - ${responseBody}`,
       );
-      (error as any).status = response.status;
-      (error as any).response = errorText;
+      (error as any).status = statusCode;
+      (error as any).response = responseBody;
       throw error;
     }
 
-    const text = await response.text();
-    return text ? JSON.parse(text) : ({} as T);
+    return responseBody ? JSON.parse(responseBody) : ({} as T);
   }
 
   async repoExists(repoName: string): Promise<boolean> {
@@ -92,11 +112,12 @@ export class CodebergClient {
 
   async createRepo(options: CreateRepoOption): Promise<CodebergRepo> {
     console.log(`Creating repo ${this.org}/${options.name}...`);
+    const createPath = this.isOrg ? `/orgs/${this.org}/repos` : `/user/repos`;
     return await pRetry(
       async () => {
         return await this.request<CodebergRepo>(
           "POST",
-          `/orgs/${this.org}/repos`,
+          createPath,
           options,
         );
       },
@@ -155,11 +176,12 @@ export class CodebergClient {
     const allRepos: CodebergRepo[] = [];
     let page = 1;
     const limit = 50;
+    const listBase = this.isOrg ? `/orgs/${this.org}/repos` : `/users/${this.org}/repos`;
 
     while (true) {
       const repos = await this.request<CodebergRepo[]>(
         "GET",
-        `/orgs/${this.org}/repos?page=${page}&limit=${limit}`,
+        `${listBase}?page=${page}&limit=${limit}`,
       );
 
       if (repos.length === 0) {

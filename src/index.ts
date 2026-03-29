@@ -28,6 +28,7 @@ async function main() {
   const configPath = process.env.CONFIG_PATH ?? "./config/migration-config.json";
   const statePath = process.env.STATE_PATH ?? "./state/migration-state.json";
   const repoList = process.env.REPO_LIST; // Comma-separated list of repos
+  const isOrg = process.env.IS_ORG === "true";
 
   if (!githubToken || !codebergToken || !sourceOrg || !targetOrg) {
     console.error("Missing required environment variables:");
@@ -40,7 +41,7 @@ async function main() {
   const config: Config = JSON.parse(configContent);
 
   // Initialize clients
-  const githubClient = new GitHubClient({ token: githubToken, org: sourceOrg });
+  const githubClient = new GitHubClient({ token: githubToken, org: sourceOrg, isOrg });
   const stateManager = new StateManager(statePath, sourceOrg, targetOrg);
 
   await stateManager.load();
@@ -69,6 +70,7 @@ async function main() {
     sourceOrg,
     targetOrg,
     statePath,
+    isOrg,
   };
 
   // Migrate repos sequentially

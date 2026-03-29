@@ -1,0 +1,202 @@
+name: Sync Safecast to Codeberg
+
+on:
+  schedule:
+    # Run every Sunday at 3 AM UTC
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+    inputs:
+      max_batches:
+        description: "Maximum number of batches to run (default: 50)"
+        required: false
+        default: "50"
+        type: string
+      dry_run:
+        description: "Dry run - discover repos but don't migrate"
+        required: false
+        default: false
+        type: boolean
+      exclude_inactive_days:
+        description: "Exclude repos with no commits in the last X days (0 = no filter)"
+        required: false
+        default: "0"
+        type: string
+      enable_sync:
+        description: "Enable sync mode - re-sync completed repos that have new GitHub commits"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  GH_SOURCE_TOKEN: ${{ secrets.GH_SOURCE_TOKEN }}
+  CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+  GH_SOURCE_ORG: Safecast
+  CODEBERG_TARGET_ORG: Safecast
+  IS_ORG: "true"
+  STATE_PATH: state/migration-state-safecast.json
+
+jobs:
+  discover:
+    name: Discover Safecast repos and create batches
+    runs-on: ubuntu-latest
+    outputs:
+      batch_count: ${{ steps.discover.outputs.batch_count }}
+      batch_matrix: ${{ steps.discover.outputs.batch_matrix }}
+      total_repos: ${{ steps.discover.outputs.total_repos }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Discover repos and create batches
+        id: discover
+        env:
+          MAX_BATCHES: ${{ inputs.max_batches || '50' }}
+          EXCLUDE_INACTIVE_DAYS: ${{ inputs.exclude_inactive_days || '0' }}
+          ENABLE_SYNC: ${{ inputs.enable_sync != false && 'true' || 'false' }}
+        run: node dist/orchestration/discover-and-batch.js
+
+      - name: Upload state artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: safecast-discovery-state
+          path: state/migration-state-safecast.json
+          retention-days: 7
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/migration-state-safecast.json || true
+          git diff --staged --quiet || git commit -m "chore: update Safecast migration state after discovery"
+          git push || echo "Nothing to push"
+
+  migrate:
+    name: Migrate Safecast batch ${{ matrix.batch.batch_number }}
+    needs: discover
+    if: needs.discover.outputs.batch_count != '0' && !inputs.dry_run
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        batch: ${{ fromJson(needs.discover.outputs.batch_matrix) }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Download state artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: safecast-discovery-state
+          path: state/
+
+      - name: Configure git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Migrate batch
+        id: migrate
+        env:
+          REPO_LIST: ${{ matrix.batch.repos }}
+          BATCH_NUMBER: ${{ matrix.batch.batch_number }}
+        run: |
+          echo "Migrating Safecast batch $BATCH_NUMBER: $REPO_LIST"
+          mkdir -p state/batch-states-safecast
+          export STATE_PATH="state/batch-states-safecast/batch-$BATCH_NUMBER.json"
+          cp state/migration-state-safecast.json "$STATE_PATH" || true
+          node dist/index.js || echo "Some migrations may have failed"
+
+      - name: Upload batch state
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: safecast-batch-state-${{ matrix.batch.batch_number }}
+          path: state/batch-states-safecast/
+          retention-days: 7
+
+  merge-states:
+    name: Merge Safecast batch states
+    needs: [discover, migrate]
+    if: always() && needs.discover.outputs.batch_count != '0' && !inputs.dry_run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Pull latest changes
+        run: git pull origin ${{ github.ref_name }} || true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Download all batch states
+        uses: actions/download-artifact@v4
+        with:
+          pattern: safecast-batch-state-*
+          path: state/batch-states-safecast/
+          merge-multiple: true
+
+      - name: Merge states
+        env:
+          BATCH_STATES_DIR: state/batch-states-safecast
+        run: node dist/orchestration/merge-states.js
+
+      - name: Commit merged state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/migration-state-safecast.json
+          git diff --staged --quiet || git commit -m "chore: update Safecast migration state after batch processing"
+          git push
+
+      - name: Print summary
+        run: |
+          echo "## Safecast Migration Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat state/migration-state-safecast.json | jq -r '
+            "- **Total repos**: \(.totalRepos // (.repos | length))",
+            "- **Completed**: \([.repos[] | select(.status == "completed")] | length)",
+            "- **Failed**: \([.repos[] | select(.status == "failed")] | length)",
+            "- **Pending**: \([.repos[] | select(.status == "pending")] | length)"
+          ' >> $GITHUB_STEP_SUMMARY

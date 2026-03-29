@@ -10,6 +10,7 @@ export interface MigrationConfig {
   targetOrg: string;
   statePath: string;
   workDir?: string;
+  isOrg?: boolean;
 }
 
 export interface MigrationResult {
@@ -98,6 +99,7 @@ export async function migrateRepo(
   const codebergClient = new CodebergClient({
     token: config.codebergToken,
     org: config.targetOrg,
+    isOrg: config.isOrg,
   });
 
   // Phase 1: Ensure repo exists on Codeberg
@@ -200,6 +202,7 @@ async function main() {
   const sourceOrg = process.env.GH_SOURCE_ORG;
   const targetOrg = process.env.CODEBERG_TARGET_ORG;
   const statePath = process.env.STATE_PATH ?? "./state/migration-state.json";
+  const isOrg = process.env.IS_ORG === "true";
 
   if (!repoName || !githubToken || !codebergToken || !sourceOrg || !targetOrg) {
     console.error("Missing required environment variables:");
@@ -207,7 +210,7 @@ async function main() {
     process.exit(1);
   }
 
-  const githubClient = new GitHubClient({ token: githubToken, org: sourceOrg });
+  const githubClient = new GitHubClient({ token: githubToken, org: sourceOrg, isOrg });
   const stateManager = new StateManager(statePath, sourceOrg, targetOrg);
 
   await stateManager.load();
@@ -224,6 +227,7 @@ async function main() {
     sourceOrg,
     targetOrg,
     statePath,
+    isOrg,
   };
 
   const result = await migrateRepo(repo, config, stateManager);

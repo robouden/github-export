@@ -123,7 +123,8 @@ async function main() {
   }
 
   const config = await loadConfig(configPath);
-  const githubClient = new GitHubClient({ token: githubToken, org: sourceOrg });
+  const isOrg = process.env.IS_ORG === "true";
+  const githubClient = new GitHubClient({ token: githubToken, org: sourceOrg, isOrg });
   const stateManager = new StateManager(statePath, sourceOrg, targetOrg);
 
   await stateManager.load();
