@@ -11,10 +11,12 @@
     "migrate": "node dist/migration/repo-migrator.js",
     "merge-states": "node dist/orchestration/merge-states.js",
     "list-migrating": "node dist/orchestration/list-migrating.js",
-    "cleanup-migrating": "node dist/orchestration/cleanup-migrating-repos.js"
+    "cleanup-migrating": "node dist/orchestration/cleanup-migrating-repos.js",
+    "migrate-teams": "node dist/orchestration/migrate-teams.js"
   },
   "dependencies": {
     "@octokit/rest": "^21.0.0",
+    "node-fetch": "^3.3.2",
     "p-retry": "^6.2.0",
     "puppeteer": "^24.37.2",
     "simple-git": "^3.22.0",
