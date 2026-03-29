@@ -7479,33 +7479,42 @@
     },
     "doc.albert-api": {
       "name": "doc.albert-api",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-03-26T10:47:41Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-03-26T10:47:41Z"
+      "lastAttempt": "2026-03-29T03:55:17.154Z",
+      "completedAt": "2026-03-29T03:55:20.547Z",
+      "lastSyncedAt": "2026-03-29T03:55:20.547Z"
     },
     "test-sme": {
       "name": "test-sme",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-03-26T11:01:43Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-03-26T11:01:43Z"
+      "lastAttempt": "2026-03-29T03:55:20.768Z",
+      "completedAt": "2026-03-29T03:55:24.872Z",
+      "lastSyncedAt": "2026-03-29T03:55:24.872Z"
     },
     "sante-mentale-etudiant": {
       "name": "sante-mentale-etudiant",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-03-26T11:01:43Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-03-26T11:01:43Z"
+      "lastAttempt": "2026-03-29T03:55:25.108Z",
+      "completedAt": "2026-03-29T03:55:58.002Z",
+      "lastSyncedAt": "2026-03-29T03:55:58.002Z"
     }
   }
 }
