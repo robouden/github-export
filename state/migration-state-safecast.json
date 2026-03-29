@@ -1,7 +1,679 @@
 {
+  "version": 1,
   "sourceOrg": "Safecast",
   "targetOrg": "Safecast",
-  "repos": {},
-  "totalRepos": 0,
-  "lastUpdated": null
+  "totalRepos": 67,
+  "repos": {
+    "safecast.org": {
+      "name": "safecast.org",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2020-05-27T14:21:34Z"
+    },
+    "safecastapi": {
+      "name": "safecastapi",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-05-23T23:40:03Z"
+    },
+    "bGeigieMini": {
+      "name": "bGeigieMini",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2017-12-16T15:14:08Z"
+    },
+    "GeoSense": {
+      "name": "GeoSense",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-11-07T01:15:39Z"
+    },
+    "Databot": {
+      "name": "Databot",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2017-06-24T01:51:33Z"
+    },
+    "onyxfirmware": {
+      "name": "onyxfirmware",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2017-07-29T04:02:54Z"
+    },
+    "bGeigie3-hexes": {
+      "name": "bGeigie3-hexes",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2014-03-02T15:25:16Z"
+    },
+    "General": {
+      "name": "General",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-11-17T00:23:18Z"
+    },
+    "bGeigieNanoKit": {
+      "name": "bGeigieNanoKit",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-10-01T21:18:01Z"
+    },
+    "Realtime-Website": {
+      "name": "Realtime-Website",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-03-27T08:55:14Z"
+    },
+    "bitstore.js": {
+      "name": "bitstore.js",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2015-11-01T01:08:32Z"
+    },
+    "nGeigie_LCD": {
+      "name": "nGeigie_LCD",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2014-11-25T09:38:05Z"
+    },
+    "bGeigieNanoS": {
+      "name": "bGeigieNanoS",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2015-09-23T23:27:45Z"
+    },
+    "bGeigieNano-wifi": {
+      "name": "bGeigieNano-wifi",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2015-03-10T21:12:31Z"
+    },
+    "Pointcast": {
+      "name": "Pointcast",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2018-09-05T04:30:52Z"
+    },
+    "Pocketcast-iOS": {
+      "name": "Pocketcast-iOS",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2015-06-04T02:38:37Z"
+    },
+    "Tilemap": {
+      "name": "Tilemap",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-12-11T13:17:18Z"
+    },
+    "Pocketcast": {
+      "name": "Pocketcast",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2015-05-20T18:33:12Z"
+    },
+    "Safecast-Air": {
+      "name": "Safecast-Air",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-01-03T06:11:33Z"
+    },
+    "Dummycast": {
+      "name": "Dummycast",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2015-05-22T04:55:33Z"
+    },
+    "API-Gateways": {
+      "name": "API-Gateways",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2015-10-07T01:04:58Z"
+    },
+    "fixed_sensor_visualization": {
+      "name": "fixed_sensor_visualization",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2018-04-25T12:44:45Z"
+    },
+    "Safecast": {
+      "name": "Safecast",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2015-12-02T01:27:29Z"
+    },
+    "Drive-ios": {
+      "name": "Drive-ios",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2017-01-13T17:30:42Z"
+    },
+    "Drive-android": {
+      "name": "Drive-android",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2016-07-18T10:08:20Z"
+    },
+    "Pointcast-Mobile-App": {
+      "name": "Pointcast-Mobile-App",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2021-01-02T13:55:28Z"
+    },
+    "Pointcast-Mobile-Server": {
+      "name": "Pointcast-Mobile-Server",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-10-09T14:57:35Z"
+    },
+    "Solarcast": {
+      "name": "Solarcast",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2017-08-24T12:33:16Z"
+    },
+    "ingest": {
+      "name": "ingest",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-11-30T22:20:00Z"
+    },
+    "reporting": {
+      "name": "reporting",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-09-13T06:34:02Z"
+    },
+    "TTNode": {
+      "name": "TTNode",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-08-01T09:15:19Z"
+    },
+    "TTGate": {
+      "name": "TTGate",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-03-28T23:01:20Z"
+    },
+    "TTServe": {
+      "name": "TTServe",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-05-07T15:11:36Z"
+    },
+    "bGeigieIntegratedSW": {
+      "name": "bGeigieIntegratedSW",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-01-21T08:41:09Z"
+    },
+    "TTProto": {
+      "name": "TTProto",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-12-12T14:40:34Z"
+    },
+    "SolarcastNano": {
+      "name": "SolarcastNano",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2017-12-18T05:39:16Z"
+    },
+    "analysis": {
+      "name": "analysis",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2018-11-09T05:27:19Z"
+    },
+    "bGeigieZen": {
+      "name": "bGeigieZen",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-03-23T15:42:53Z"
+    },
+    "bGeigieCast": {
+      "name": "bGeigieCast",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-09-25T01:43:09Z"
+    },
+    "kgeigie": {
+      "name": "kgeigie",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-02-04T00:01:09Z"
+    },
+    "open-geiger": {
+      "name": "open-geiger",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-05-01T13:28:23Z"
+    },
+    "safecast.github.io": {
+      "name": "safecast.github.io",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2019-11-18T03:19:17Z"
+    },
+    "covid19map": {
+      "name": "covid19map",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2020-05-11T09:18:02Z"
+    },
+    "deployment-history": {
+      "name": "deployment-history",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-11-30T21:12:16Z"
+    },
+    "safecast_deploy": {
+      "name": "safecast_deploy",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-09-14T21:04:06Z"
+    },
+    "reporting2": {
+      "name": "reporting2",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2021-11-24T01:24:05Z"
+    },
+    "github-actions": {
+      "name": "github-actions",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2021-11-23T22:32:48Z"
+    },
+    "actions-test": {
+      "name": "actions-test",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2020-08-22T12:04:16Z"
+    },
+    "library": {
+      "name": "library",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2023-02-16T02:07:15Z"
+    },
+    "safestream": {
+      "name": "safestream",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2021-04-26T10:43:14Z"
+    },
+    "TTDefs-ARCHIVE-do-not-use": {
+      "name": "TTDefs-ARCHIVE-do-not-use",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2021-06-02T19:14:51Z"
+    },
+    "safepulse": {
+      "name": "safepulse",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-01-20T10:59:46Z"
+    },
+    "DataKind-SF": {
+      "name": "DataKind-SF",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2021-03-09T00:31:22Z"
+    },
+    "safecast-go": {
+      "name": "safecast-go",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2021-06-02T19:28:50Z"
+    },
+    "QuickPulse": {
+      "name": "QuickPulse",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-01-21T18:57:45Z"
+    },
+    "map-vercel-version": {
+      "name": "map-vercel-version",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-04-04T21:15:45Z"
+    },
+    "sveltekit-boilerplate": {
+      "name": "sveltekit-boilerplate",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-03-24T00:44:19Z"
+    },
+    "Infrastructure-2": {
+      "name": "Infrastructure-2",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-08-30T19:36:05Z"
+    },
+    "realtime-grafana-last-24-hours": {
+      "name": "realtime-grafana-last-24-hours",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-01-23T11:32:14Z"
+    },
+    "simple-gateway": {
+      "name": "simple-gateway",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2024-12-02T14:36:40Z"
+    },
+    "bGeigie-Drive": {
+      "name": "bGeigie-Drive",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-04-03T20:27:58Z"
+    },
+    "map2025": {
+      "name": "map2025",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-04-18T04:00:31Z"
+    },
+    "rt-ca-map": {
+      "name": "rt-ca-map",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-07-26T16:14:30Z"
+    },
+    "Zen-app": {
+      "name": "Zen-app",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2025-06-21T03:19:07Z"
+    },
+    "bGeigieScint": {
+      "name": "bGeigieScint",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-03-27T12:32:18Z"
+    },
+    "safecast-new-map": {
+      "name": "safecast-new-map",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-03-23T23:49:54Z"
+    },
+    "AnyType-VPS": {
+      "name": "AnyType-VPS",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-02-20T00:38:30Z"
+    }
+  },
+  "lastDiscovery": "2026-03-29T09:45:51.160Z"
 }
