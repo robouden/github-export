@@ -2,8 +2,8 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-03-29T03:54:55.576Z",
-  "totalRepos": 583,
+  "lastDiscovery": "2026-03-29T04:17:08.059Z",
+  "totalRepos": 680,
   "repos": {
     "aides-jeunes": {
       "name": "aides-jeunes",
@@ -7480,41 +7480,1302 @@
     "doc.albert-api": {
       "name": "doc.albert-api",
       "status": "completed",
+      "lastAttempt": "2026-03-29T03:55:17.154Z",
+      "completedAt": "2026-03-29T03:55:20.547Z",
+      "lastSyncedAt": "2026-03-29T03:55:20.547Z",
       "githubPushedAt": "2026-03-26T10:47:41Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-03-29T03:55:17.154Z",
-      "completedAt": "2026-03-29T03:55:20.547Z",
-      "lastSyncedAt": "2026-03-29T03:55:20.547Z"
+      }
     },
     "test-sme": {
       "name": "test-sme",
       "status": "completed",
+      "lastAttempt": "2026-03-29T03:55:20.768Z",
+      "completedAt": "2026-03-29T03:55:24.872Z",
+      "lastSyncedAt": "2026-03-29T03:55:24.872Z",
       "githubPushedAt": "2026-03-26T11:01:43Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
-      },
-      "lastAttempt": "2026-03-29T03:55:20.768Z",
-      "completedAt": "2026-03-29T03:55:24.872Z",
-      "lastSyncedAt": "2026-03-29T03:55:24.872Z"
+      }
     },
     "sante-mentale-etudiant": {
       "name": "sante-mentale-etudiant",
       "status": "completed",
+      "lastAttempt": "2026-03-29T03:55:25.108Z",
+      "completedAt": "2026-03-29T03:55:58.002Z",
+      "lastSyncedAt": "2026-03-29T03:55:58.002Z",
       "githubPushedAt": "2026-03-26T11:01:43Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
         "branchSync": true
+      }
+    },
+    ".anydesk": {
+      "name": ".anydesk",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:36:17.150Z",
+      "completedAt": "2026-03-29T04:36:22.722Z",
+      "lastSyncedAt": "2026-03-29T04:36:22.722Z",
+      "githubPushedAt": "2026-03-27T02:13:17Z",
+      "attemptCount": 2,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    ".history": {
+      "name": ".history",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:36:23.156Z",
+      "completedAt": "2026-03-29T04:36:52.219Z",
+      "lastSyncedAt": "2026-03-29T04:36:52.219Z",
+      "githubPushedAt": "2026-03-27T12:30:34Z",
+      "attemptCount": 2,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "API-new": {
+      "name": "API-new",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:36:52.989Z",
+      "completedAt": "2026-03-29T04:36:59.303Z",
+      "lastSyncedAt": "2026-03-29T04:36:59.303Z",
+      "githubPushedAt": "2025-08-24T04:41:49Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "API-new-2": {
+      "name": "API-new-2",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:37:49.069Z",
+      "completedAt": "2026-03-29T04:38:02.841Z",
+      "lastSyncedAt": "2026-03-29T04:38:02.841Z",
+      "githubPushedAt": "2025-09-02T03:36:33Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "arduino-esp32": {
+      "name": "arduino-esp32",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:38:03.408Z",
+      "completedAt": "2026-03-29T04:45:56.526Z",
+      "lastSyncedAt": "2026-03-29T04:45:56.526Z",
+      "githubPushedAt": "2018-11-07T22:45:29Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Atom-Lite-Si5351": {
+      "name": "Atom-Lite-Si5351",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:45:57.303Z",
+      "completedAt": "2026-03-29T04:49:46.739Z",
+      "lastSyncedAt": "2026-03-29T04:49:46.739Z",
+      "githubPushedAt": "2023-02-20T11:32:26Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Atom-S3": {
+      "name": "Atom-S3",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:49:54.815Z",
+      "completedAt": "2026-03-29T04:54:00.111Z",
+      "lastSyncedAt": "2026-03-29T04:54:00.111Z",
+      "githubPushedAt": "2023-02-19T06:35:17Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Audio": {
+      "name": "Audio",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:54:00.640Z",
+      "completedAt": "2026-03-29T04:55:07.555Z",
+      "lastSyncedAt": "2026-03-29T04:55:07.555Z",
+      "githubPushedAt": "2020-06-03T19:08:33Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "badger2040": {
+      "name": "badger2040",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:55:07.998Z",
+      "completedAt": "2026-03-29T04:55:14.630Z",
+      "lastSyncedAt": "2026-03-29T04:55:14.630Z",
+      "githubPushedAt": "2022-04-19T12:51:05Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "basic-idea": {
+      "name": "basic-idea",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:35:45.814Z",
+      "completedAt": "2026-03-29T04:35:51.869Z",
+      "lastSyncedAt": "2026-03-29T04:35:51.869Z",
+      "githubPushedAt": "2022-10-27T01:38:27Z",
+      "attemptCount": 6,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "beersample": {
+      "name": "beersample",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:55:20.477Z",
+      "completedAt": "2026-03-29T04:55:26.851Z",
+      "lastSyncedAt": "2026-03-29T04:55:26.851Z",
+      "githubPushedAt": "2014-02-17T05:36:25Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "bGeigieNano": {
+      "name": "bGeigieNano",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:55:27.761Z",
+      "completedAt": "2026-03-29T04:57:07.132Z",
+      "lastSyncedAt": "2026-03-29T04:57:07.132Z",
+      "githubPushedAt": "2017-01-29T11:03:34Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "bGeigieNanoKit": {
+      "name": "bGeigieNanoKit",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T04:57:07.746Z",
+      "completedAt": "2026-03-29T05:02:27.897Z",
+      "lastSyncedAt": "2026-03-29T05:02:27.897Z",
+      "githubPushedAt": "2013-11-11T15:31:08Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "bGeigieNano_full_display": {
+      "name": "bGeigieNano_full_display",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:02:33.685Z",
+      "completedAt": "2026-03-29T05:02:41.098Z",
+      "lastSyncedAt": "2026-03-29T05:02:41.098Z",
+      "githubPushedAt": "2018-06-18T10:22:18Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "bGeigieZen-Core2": {
+      "name": "bGeigieZen-Core2",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:02:41.492Z",
+      "completedAt": "2026-03-29T05:07:26.850Z",
+      "lastSyncedAt": "2026-03-29T05:07:26.850Z",
+      "githubPushedAt": "2022-11-02T09:12:53Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "bGeigieZen-Core2-Test": {
+      "name": "bGeigieZen-Core2-Test",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:07:27.341Z",
+      "completedAt": "2026-03-29T05:07:33.595Z",
+      "lastSyncedAt": "2026-03-29T05:07:33.595Z",
+      "githubPushedAt": "2022-12-29T13:42:21Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "bGiegeiNano_rob": {
+      "name": "bGiegeiNano_rob",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:07:39.694Z",
+      "completedAt": "2026-03-29T05:07:45.789Z",
+      "lastSyncedAt": "2026-03-29T05:07:45.789Z",
+      "githubPushedAt": "2019-01-22T02:12:38Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "bGiegieNano-Lionel": {
+      "name": "bGiegieNano-Lionel",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:07:46.244Z",
+      "completedAt": "2026-03-29T05:07:50.503Z",
+      "lastSyncedAt": "2026-03-29T05:07:50.503Z",
+      "githubPushedAt": "2013-10-23T01:58:28Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "bGiegieNano_Eyes_Japan_Shock_Gas": {
+      "name": "bGiegieNano_Eyes_Japan_Shock_Gas",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:07:50.981Z",
+      "completedAt": "2026-03-29T05:07:57.202Z",
+      "lastSyncedAt": "2026-03-29T05:07:57.202Z",
+      "githubPushedAt": "2018-06-28T22:30:54Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "BLEbee": {
+      "name": "BLEbee",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:08:03.030Z",
+      "completedAt": "2026-03-29T05:08:10.506Z",
+      "lastSyncedAt": "2026-03-29T05:08:10.506Z",
+      "githubPushedAt": "2013-07-03T20:14:46Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "blebee-07": {
+      "name": "blebee-07",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:08:11.035Z",
+      "completedAt": "2026-03-29T05:08:16.341Z",
+      "lastSyncedAt": "2026-03-29T05:08:16.341Z",
+      "githubPushedAt": "2014-04-08T04:14:58Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "BLENano_pGeigie": {
+      "name": "BLENano_pGeigie",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:08:17.145Z",
+      "completedAt": "2026-03-29T05:08:23.072Z",
+      "lastSyncedAt": "2026-03-29T05:08:23.072Z",
+      "githubPushedAt": "2016-04-23T09:48:42Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "coils-blender": {
+      "name": "coils-blender",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:08:28.928Z",
+      "completedAt": "2026-03-29T05:12:18.925Z",
+      "lastSyncedAt": "2026-03-29T05:12:18.925Z",
+      "githubPushedAt": "2022-05-13T10:45:54Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "CrowPanel-Advance-7inch-ESP32-LVGL-ESP-IDF-Demo": {
+      "name": "CrowPanel-Advance-7inch-ESP32-LVGL-ESP-IDF-Demo",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:12:19.523Z",
+      "completedAt": "2026-03-29T05:12:26.680Z",
+      "lastSyncedAt": "2026-03-29T05:12:26.680Z",
+      "githubPushedAt": "2025-05-04T05:20:18Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "CrowPanel7inch": {
+      "name": "CrowPanel7inch",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:12:27.169Z",
+      "completedAt": "2026-03-29T05:13:08.842Z",
+      "lastSyncedAt": "2026-03-29T05:13:08.842Z",
+      "githubPushedAt": "2025-05-01T08:15:35Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Current-probe": {
+      "name": "Current-probe",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:13:14.635Z",
+      "completedAt": "2026-03-29T05:13:21.145Z",
+      "lastSyncedAt": "2026-03-29T05:13:21.145Z",
+      "githubPushedAt": "2023-07-08T08:32:04Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Databot": {
+      "name": "Databot",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:13:22.011Z",
+      "completedAt": "2026-03-29T05:13:42.753Z",
+      "lastSyncedAt": "2026-03-29T05:13:42.753Z",
+      "githubPushedAt": "2017-06-18T21:12:11Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "EEZ-studio-test": {
+      "name": "EEZ-studio-test",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:13:43.240Z",
+      "completedAt": "2026-03-29T05:19:11.986Z",
+      "lastSyncedAt": "2026-03-29T05:19:11.986Z",
+      "githubPushedAt": "2024-07-13T00:35:00Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Elecrow-7-Inch-Display-WZ8048C070": {
+      "name": "Elecrow-7-Inch-Display-WZ8048C070",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:19:17.846Z",
+      "completedAt": "2026-03-29T05:19:30.428Z",
+      "lastSyncedAt": "2026-03-29T05:19:30.428Z",
+      "githubPushedAt": "2024-04-23T12:23:59Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "ESP32_S3-Ink-Screen": {
+      "name": "ESP32_S3-Ink-Screen",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:19:30.972Z",
+      "completedAt": "2026-03-29T05:20:26.019Z",
+      "lastSyncedAt": "2026-03-29T05:20:26.019Z",
+      "githubPushedAt": "2025-03-14T11:54:08Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "ethernet-bootloader": {
+      "name": "ethernet-bootloader",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:20:26.519Z",
+      "completedAt": "2026-03-29T05:20:33.642Z",
+      "lastSyncedAt": "2026-03-29T05:20:33.642Z",
+      "githubPushedAt": "2011-03-21T09:56:13Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "fixed_sensor_visualization": {
+      "name": "fixed_sensor_visualization",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:20:39.472Z",
+      "completedAt": "2026-03-29T05:20:46.874Z",
+      "lastSyncedAt": "2026-03-29T05:20:46.874Z",
+      "githubPushedAt": "2014-05-03T06:30:26Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "GrooveGO": {
+      "name": "GrooveGO",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:20:47.339Z",
+      "completedAt": "2026-03-29T05:20:56.165Z",
+      "lastSyncedAt": "2026-03-29T05:20:56.165Z",
+      "githubPushedAt": "2026-03-28T15:34:10Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "IOs-app": {
+      "name": "IOs-app",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:20:56.665Z",
+      "completedAt": "2026-03-29T05:21:02.282Z",
+      "lastSyncedAt": "2026-03-29T05:21:02.282Z",
+      "githubPushedAt": "2025-06-14T01:03:57Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "IOS_App_test": {
+      "name": "IOS_App_test",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:21:08.038Z",
+      "completedAt": "2026-03-29T05:21:13.458Z",
+      "lastSyncedAt": "2026-03-29T05:21:13.458Z",
+      "githubPushedAt": "2025-06-14T01:07:53Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "IOS_ap_test": {
+      "name": "IOS_ap_test",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:21:14.038Z",
+      "completedAt": "2026-03-29T05:21:18.765Z",
+      "lastSyncedAt": "2026-03-29T05:21:18.765Z",
+      "githubPushedAt": "2025-06-14T01:05:27Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Ivar": {
+      "name": "Ivar",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:21:19.466Z",
+      "completedAt": "2026-03-29T05:22:22.551Z",
+      "lastSyncedAt": "2026-03-29T05:22:22.551Z",
+      "githubPushedAt": "2024-03-19T08:16:55Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "IVO": {
+      "name": "IVO",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:22:28.394Z",
+      "completedAt": "2026-03-29T05:23:29.647Z",
+      "lastSyncedAt": "2026-03-29T05:23:29.647Z",
+      "githubPushedAt": "2025-01-10T11:34:53Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "IVO-coil": {
+      "name": "IVO-coil",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:23:30.133Z",
+      "completedAt": "2026-03-29T05:24:12.019Z",
+      "lastSyncedAt": "2026-03-29T05:24:12.019Z",
+      "githubPushedAt": "2023-10-28T11:40:45Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Kittywood-hydro": {
+      "name": "Kittywood-hydro",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:24:12.511Z",
+      "completedAt": "2026-03-29T05:37:53.518Z",
+      "lastSyncedAt": "2026-03-29T05:37:53.518Z",
+      "githubPushedAt": "2024-02-03T11:09:42Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "kromek-prototype": {
+      "name": "kromek-prototype",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:37:59.298Z",
+      "completedAt": "2026-03-29T05:38:04.563Z",
+      "lastSyncedAt": "2026-03-29T05:38:04.563Z",
+      "githubPushedAt": "2014-04-04T23:54:24Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "LilyGo-AMOLED-Series-master": {
+      "name": "LilyGo-AMOLED-Series-master",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:38:04.983Z",
+      "completedAt": "2026-03-29T05:41:11.585Z",
+      "lastSyncedAt": "2026-03-29T05:41:11.585Z",
+      "githubPushedAt": "2024-01-28T09:12:22Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "LilyGo-T5-Epaper-Series-master": {
+      "name": "LilyGo-T5-Epaper-Series-master",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:41:12.263Z",
+      "completedAt": "2026-03-29T05:41:42.863Z",
+      "lastSyncedAt": "2026-03-29T05:41:42.863Z",
+      "githubPushedAt": "2022-05-27T05:07:36Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "lv_port_pc_vscode": {
+      "name": "lv_port_pc_vscode",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:41:48.712Z",
+      "completedAt": "2026-03-29T05:41:55.743Z",
+      "lastSyncedAt": "2026-03-29T05:41:55.743Z",
+      "githubPushedAt": "2024-04-28T15:25:03Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "M5-ProductExampleCodes": {
+      "name": "M5-ProductExampleCodes",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:41:56.243Z",
+      "completedAt": "2026-03-29T05:42:51.974Z",
+      "lastSyncedAt": "2026-03-29T05:42:51.974Z",
+      "githubPushedAt": "2021-05-06T01:52:12Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "M5Stack-MultiApp-Advanced": {
+      "name": "M5Stack-MultiApp-Advanced",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:42:52.463Z",
+      "completedAt": "2026-03-29T05:49:15.487Z",
+      "lastSyncedAt": "2026-03-29T05:49:15.487Z",
+      "githubPushedAt": "2025-01-08T01:55:02Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "M5stackAtomeLite_test": {
+      "name": "M5stackAtomeLite_test",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:49:21.314Z",
+      "completedAt": "2026-03-29T05:49:41.199Z",
+      "lastSyncedAt": "2026-03-29T05:49:41.199Z",
+      "githubPushedAt": "2023-09-25T04:51:14Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "M5StackCore-test": {
+      "name": "M5StackCore-test",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:49:41.663Z",
+      "completedAt": "2026-03-29T05:49:47.172Z",
+      "lastSyncedAt": "2026-03-29T05:49:47.172Z",
+      "githubPushedAt": "2023-06-06T11:36:33Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "M5stackCoreS3-_SDcard": {
+      "name": "M5stackCoreS3-_SDcard",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:49:47.677Z",
+      "completedAt": "2026-03-29T05:49:53.392Z",
+      "lastSyncedAt": "2026-03-29T05:49:53.392Z",
+      "githubPushedAt": "2024-10-28T02:05:33Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "M5StickC-Plus-TLite-FW-main-YR-design": {
+      "name": "M5StickC-Plus-TLite-FW-main-YR-design",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:49:59.217Z",
+      "completedAt": "2026-03-29T05:54:56.127Z",
+      "lastSyncedAt": "2026-03-29T05:54:56.127Z",
+      "githubPushedAt": "2023-10-28T08:24:10Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Makerfabs-MaTouch-and-Sunton-ESP32-S3-7-Inch-Display-LVGL": {
+      "name": "Makerfabs-MaTouch-and-Sunton-ESP32-S3-7-Inch-Display-LVGL",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:54:56.978Z",
+      "completedAt": "2026-03-29T05:55:03.528Z",
+      "lastSyncedAt": "2026-03-29T05:55:03.528Z",
+      "githubPushedAt": "2024-04-27T14:34:19Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "map-louis": {
+      "name": "map-louis",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:55:03.980Z",
+      "completedAt": "2026-03-29T05:55:11.091Z",
+      "lastSyncedAt": "2026-03-29T05:55:11.091Z",
+      "githubPushedAt": "2025-05-17T13:40:32Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Mini-SiD": {
+      "name": "Mini-SiD",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:55:16.968Z",
+      "completedAt": "2026-03-29T05:56:19.747Z",
+      "lastSyncedAt": "2026-03-29T05:56:19.747Z",
+      "githubPushedAt": "2026-01-29T00:31:53Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "MStack-DMA-eez-flow-demo": {
+      "name": "MStack-DMA-eez-flow-demo",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T05:56:20.311Z",
+      "completedAt": "2026-03-29T06:02:00.975Z",
+      "lastSyncedAt": "2026-03-29T06:02:00.975Z",
+      "githubPushedAt": "2024-06-11T15:17:11Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "nGeigie": {
+      "name": "nGeigie",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:02:01.478Z",
+      "completedAt": "2026-03-29T06:02:24.724Z",
+      "lastSyncedAt": "2026-03-29T06:02:24.724Z",
+      "githubPushedAt": "2013-11-23T10:25:39Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "nGeigie_LCD": {
+      "name": "nGeigie_LCD",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:02:30.500Z",
+      "completedAt": "2026-03-29T06:02:42.247Z",
+      "lastSyncedAt": "2026-03-29T06:02:42.247Z",
+      "githubPushedAt": "2014-07-14T00:26:49Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "note-hardware": {
+      "name": "note-hardware",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:02:42.999Z",
+      "completedAt": "2026-03-29T06:25:26.028Z",
+      "lastSyncedAt": "2026-03-29T06:25:26.028Z",
+      "githubPushedAt": "2024-05-01T13:45:00Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Notecarrier-Micro": {
+      "name": "Notecarrier-Micro",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:25:26.482Z",
+      "completedAt": "2026-03-29T06:27:15.670Z",
+      "lastSyncedAt": "2026-03-29T06:27:15.670Z",
+      "githubPushedAt": "2025-07-24T12:45:35Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "NUC": {
+      "name": "NUC",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:27:21.457Z",
+      "completedAt": "2026-03-29T06:27:52.115Z",
+      "lastSyncedAt": "2026-03-29T06:27:52.115Z",
+      "githubPushedAt": "2021-08-03T09:06:42Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Open---Safe": {
+      "name": "Open---Safe",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:27:52.549Z",
+      "completedAt": "2026-03-29T06:28:01.617Z",
+      "lastSyncedAt": "2026-03-29T06:28:01.617Z",
+      "githubPushedAt": "2025-07-05T01:50:03Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Open-Gamma-Detector": {
+      "name": "Open-Gamma-Detector",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:28:02.463Z",
+      "completedAt": "2026-03-29T06:31:56.571Z",
+      "lastSyncedAt": "2026-03-29T06:31:56.571Z",
+      "githubPushedAt": "2026-01-29T00:32:23Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "openclaw-workspace": {
+      "name": "openclaw-workspace",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:32:02.330Z",
+      "completedAt": "2026-03-29T06:33:12.819Z",
+      "lastSyncedAt": "2026-03-29T06:33:12.819Z",
+      "githubPushedAt": "2026-03-26T06:35:51Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "opencode-1.2.27": {
+      "name": "opencode-1.2.27",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:33:13.262Z",
+      "completedAt": "2026-03-29T06:37:48.838Z",
+      "lastSyncedAt": "2026-03-29T06:37:48.838Z",
+      "githubPushedAt": "2026-03-22T14:14:48Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "openradiation-mobile": {
+      "name": "openradiation-mobile",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:37:49.385Z",
+      "completedAt": "2026-03-29T06:39:24.371Z",
+      "lastSyncedAt": "2026-03-29T06:39:24.371Z",
+      "githubPushedAt": "2025-03-05T14:56:55Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Peter-Wiersema-projects": {
+      "name": "Peter-Wiersema-projects",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:39:30.089Z",
+      "completedAt": "2026-03-29T06:58:47.653Z",
+      "lastSyncedAt": "2026-03-29T06:58:47.653Z",
+      "githubPushedAt": "2024-03-13T02:24:13Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "pico-boilerplate": {
+      "name": "pico-boilerplate",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:58:48.161Z",
+      "completedAt": "2026-03-29T06:58:55.964Z",
+      "lastSyncedAt": "2026-03-29T06:58:55.964Z",
+      "githubPushedAt": "2022-04-19T12:41:27Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "pmsx003": {
+      "name": "pmsx003",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:58:56.480Z",
+      "completedAt": "2026-03-29T06:59:02.739Z",
+      "lastSyncedAt": "2026-03-29T06:59:02.739Z",
+      "githubPushedAt": "2018-08-08T10:24:50Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "pomelo": {
+      "name": "pomelo",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T06:59:08.586Z",
+      "completedAt": "2026-03-29T07:00:25.336Z",
+      "lastSyncedAt": "2026-03-29T07:00:25.336Z",
+      "githubPushedAt": "2025-12-06T00:15:38Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "PomeloCore-KiCad": {
+      "name": "PomeloCore-KiCad",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:00:25.789Z",
+      "completedAt": "2026-03-29T07:02:25.885Z",
+      "lastSyncedAt": "2026-03-29T07:02:25.885Z",
+      "githubPushedAt": "2025-11-29T06:11:25Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Poppeteer": {
+      "name": "Poppeteer",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:02:26.410Z",
+      "completedAt": "2026-03-29T07:05:53.427Z",
+      "lastSyncedAt": "2026-03-29T07:05:53.427Z",
+      "githubPushedAt": "2025-03-12T00:39:34Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "PulseMaker": {
+      "name": "PulseMaker",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:05:59.307Z",
+      "completedAt": "2026-03-29T07:06:05.278Z",
+      "lastSyncedAt": "2026-03-29T07:06:05.278Z",
+      "githubPushedAt": "2023-08-13T13:37:16Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "robouden": {
+      "name": "robouden",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:06:05.719Z",
+      "completedAt": "2026-03-29T07:06:11.323Z",
+      "lastSyncedAt": "2026-03-29T07:06:11.323Z",
+      "githubPushedAt": "2025-06-12T02:12:22Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "robouden-dark-color-theme": {
+      "name": "robouden-dark-color-theme",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:06:11.764Z",
+      "completedAt": "2026-03-29T07:06:21.040Z",
+      "lastSyncedAt": "2026-03-29T07:06:21.040Z",
+      "githubPushedAt": "2021-04-21T11:06:06Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Rodin-coil": {
+      "name": "Rodin-coil",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:06:26.900Z",
+      "completedAt": "2026-03-29T07:06:54.689Z",
+      "lastSyncedAt": "2026-03-29T07:06:54.689Z",
+      "githubPushedAt": "2022-05-08T14:39:58Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "rp2040-arduino": {
+      "name": "rp2040-arduino",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:06:55.144Z",
+      "completedAt": "2026-03-29T07:07:00.885Z",
+      "lastSyncedAt": "2026-03-29T07:07:00.885Z",
+      "githubPushedAt": "2022-04-18T16:12:23Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "RP2040-test": {
+      "name": "RP2040-test",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:07:01.364Z",
+      "completedAt": "2026-03-29T07:07:07.202Z",
+      "lastSyncedAt": "2026-03-29T07:07:07.202Z",
+      "githubPushedAt": "2022-04-16T07:08:50Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "rt_safecast": {
+      "name": "rt_safecast",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:07:13.026Z",
+      "completedAt": "2026-03-29T07:16:12.265Z",
+      "lastSyncedAt": "2026-03-29T07:16:12.265Z",
+      "githubPushedAt": "2022-05-31T10:02:21Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Safecast": {
+      "name": "Safecast",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:16:12.777Z",
+      "completedAt": "2026-03-29T07:16:48.246Z",
+      "lastSyncedAt": "2026-03-29T07:16:48.246Z",
+      "githubPushedAt": "2012-04-16T22:58:24Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "safecast-api-modern": {
+      "name": "safecast-api-modern",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:16:48.675Z",
+      "completedAt": "2026-03-29T07:16:55.784Z",
+      "lastSyncedAt": "2026-03-29T07:16:55.784Z",
+      "githubPushedAt": "2025-08-24T02:50:00Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "safecast-mcp-server": {
+      "name": "safecast-mcp-server",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:17:01.582Z",
+      "completedAt": "2026-03-29T07:17:41.091Z",
+      "lastSyncedAt": "2026-03-29T07:17:41.091Z",
+      "githubPushedAt": "2026-02-08T11:05:52Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Safecast-tube-simulator": {
+      "name": "Safecast-tube-simulator",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:17:41.564Z",
+      "completedAt": "2026-03-29T07:17:49.600Z",
+      "lastSyncedAt": "2026-03-29T07:17:49.600Z",
+      "githubPushedAt": "2023-11-12T06:10:10Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "simple-gateway": {
+      "name": "simple-gateway",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:17:50.042Z",
+      "completedAt": "2026-03-29T07:20:09.885Z",
+      "lastSyncedAt": "2026-03-29T07:20:09.885Z",
+      "githubPushedAt": "2024-11-15T01:51:21Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "Starnote-M5stackCore2": {
+      "name": "Starnote-M5stackCore2",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:20:15.677Z",
+      "completedAt": "2026-03-29T07:20:22.108Z",
+      "lastSyncedAt": "2026-03-29T07:20:22.108Z",
+      "githubPushedAt": "2024-06-08T04:29:20Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "T5_V266": {
+      "name": "T5_V266",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:20:22.539Z",
+      "completedAt": "2026-03-29T07:20:45.047Z",
+      "lastSyncedAt": "2026-03-29T07:20:45.047Z",
+      "githubPushedAt": "2022-07-12T11:06:54Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "TeenyGPSEMUT4-main": {
+      "name": "TeenyGPSEMUT4-main",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:20:45.558Z",
+      "completedAt": "2026-03-29T07:20:52.170Z",
+      "lastSyncedAt": "2026-03-29T07:20:52.170Z",
+      "githubPushedAt": "2024-02-01T23:15:47Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "TeenyGPSTestbed_C2": {
+      "name": "TeenyGPSTestbed_C2",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:20:58.036Z",
+      "completedAt": "2026-03-29T07:21:05.186Z",
+      "lastSyncedAt": "2026-03-29T07:21:05.186Z",
+      "githubPushedAt": "2024-02-27T03:18:53Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "TeenyMenu-main": {
+      "name": "TeenyMenu-main",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:21:05.632Z",
+      "completedAt": "2026-03-29T07:21:11.863Z",
+      "lastSyncedAt": "2026-03-29T07:21:11.863Z",
+      "githubPushedAt": "2023-11-07T04:31:39Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "test": {
+      "name": "test",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T09:19:39.061Z",
+      "githubPushedAt": "2019-12-14T08:21:00Z",
+      "attemptCount": 283,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
       },
-      "lastAttempt": "2026-03-29T03:55:25.108Z",
-      "completedAt": "2026-03-29T03:55:58.002Z",
-      "lastSyncedAt": "2026-03-29T03:55:58.002Z"
+      "lastSyncedAt": "2026-03-29T09:19:44.697Z",
+      "completedAt": "2026-03-29T09:19:44.697Z"
+    },
+    "test-VSCODE": {
+      "name": "test-VSCODE",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:21:54.600Z",
+      "completedAt": "2026-03-29T07:21:58.943Z",
+      "lastSyncedAt": "2026-03-29T07:21:58.943Z",
+      "githubPushedAt": "2024-01-28T08:22:18Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "TTNode": {
+      "name": "TTNode",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:21:59.383Z",
+      "completedAt": "2026-03-29T07:28:52.128Z",
+      "lastSyncedAt": "2026-03-29T07:28:52.128Z",
+      "githubPushedAt": "2022-10-08T22:49:12Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "T_QT_factory": {
+      "name": "T_QT_factory",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:29:15.836Z",
+      "completedAt": "2026-03-29T07:29:20.163Z",
+      "lastSyncedAt": "2026-03-29T07:29:20.163Z",
+      "githubPushedAt": "2023-01-30T00:41:25Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "USJ-UC": {
+      "name": "USJ-UC",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:29:20.649Z",
+      "completedAt": "2026-03-29T07:29:24.973Z",
+      "lastSyncedAt": "2026-03-29T07:29:24.973Z",
+      "githubPushedAt": "2018-01-15T00:40:43Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "usj_signature": {
+      "name": "usj_signature",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:29:48.607Z",
+      "completedAt": "2026-03-29T07:29:54.571Z",
+      "lastSyncedAt": "2026-03-29T07:29:54.571Z",
+      "githubPushedAt": "2018-05-19T22:16:13Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "UV-Meter": {
+      "name": "UV-Meter",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:29:55.352Z",
+      "completedAt": "2026-03-29T07:30:02.160Z",
+      "lastSyncedAt": "2026-03-29T07:30:02.160Z",
+      "githubPushedAt": "2021-01-11T09:35:59Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "UVC_motion_detect": {
+      "name": "UVC_motion_detect",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:30:25.955Z",
+      "completedAt": "2026-03-29T07:30:40.375Z",
+      "lastSyncedAt": "2026-03-29T07:30:40.375Z",
+      "githubPushedAt": "2021-03-02T15:32:55Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "WifiLocation-1.3.0": {
+      "name": "WifiLocation-1.3.0",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:30:41.214Z",
+      "completedAt": "2026-03-29T07:30:47.604Z",
+      "lastSyncedAt": "2026-03-29T07:30:47.604Z",
+      "githubPushedAt": "2024-01-03T10:52:08Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
+    },
+    "WZ8048C070": {
+      "name": "WZ8048C070",
+      "status": "completed",
+      "lastAttempt": "2026-03-29T07:31:11.645Z",
+      "completedAt": "2026-03-29T07:31:19.486Z",
+      "lastSyncedAt": "2026-03-29T07:31:19.486Z",
+      "githubPushedAt": "2024-07-12T05:16:13Z",
+      "attemptCount": 1,
+      "phases": {
+        "apiMigration": true,
+        "branchSync": true
+      }
     }
   }
 }

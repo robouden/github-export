@@ -1,6 +1,6 @@
 {
   "batchSize": 10,
-  "maxParallelRepos": 5,
+  "maxParallelRepos": 3,
   "maxBatchesPerRun": 5,
   "maxParallelBatches": 3,
   "retryAttempts": 3,
