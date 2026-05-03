@@ -8780,11 +8780,11 @@
     "ZPE": {
       "name": "ZPE",
       "status": "failed",
-      "lastAttempt": "2026-04-26T06:12:41.763Z",
+      "lastAttempt": "2026-05-03T04:44:34.809Z",
       "githubPushedAt": "2026-04-11T13:46:41Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
         "apiMigration": false,
         "branchSync": false
