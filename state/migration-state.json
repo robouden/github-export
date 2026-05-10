@@ -2,8 +2,8 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-05-03T04:44:08.945Z",
-  "totalRepos": 681,
+  "lastDiscovery": "2026-05-10T04:49:57.316Z",
+  "totalRepos": 683,
   "repos": {
     "aides-jeunes": {
       "name": "aides-jeunes",
@@ -7262,7 +7262,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T10:03:43.205Z",
-      "githubPushedAt": "2026-04-26T06:13:27Z",
+      "githubPushedAt": "2026-05-03T05:51:06Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8789,6 +8789,26 @@
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "Agent-fabric": {
+      "name": "Agent-fabric",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-05-09T12:25:48Z"
+    },
+    "mitsue-ai-data-center": {
+      "name": "mitsue-ai-data-center",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-05-09T22:17:53Z"
     }
   }
 }
