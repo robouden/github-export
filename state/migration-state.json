@@ -2,8 +2,8 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-05-10T04:49:57.316Z",
-  "totalRepos": 683,
+  "lastDiscovery": "2026-05-17T04:57:01.031Z",
+  "totalRepos": 684,
   "repos": {
     "aides-jeunes": {
       "name": "aides-jeunes",
@@ -7262,7 +7262,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T10:03:43.205Z",
-      "githubPushedAt": "2026-05-03T05:51:06Z",
+      "githubPushedAt": "2026-05-10T05:56:30Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8793,28 +8793,38 @@
     "Agent-fabric": {
       "name": "Agent-fabric",
       "status": "failed",
+      "lastAttempt": "2026-05-10T04:50:39.152Z",
       "githubPushedAt": "2026-05-09T12:25:48Z",
+      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
+      "errorType": "transient",
       "attemptCount": 1,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "lastAttempt": "2026-05-10T04:50:39.152Z",
-      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
-      "errorType": "transient"
+      }
     },
     "mitsue-ai-data-center": {
       "name": "mitsue-ai-data-center",
       "status": "failed",
-      "githubPushedAt": "2026-05-09T22:17:53Z",
+      "lastAttempt": "2026-05-10T04:50:49.266Z",
+      "githubPushedAt": "2026-05-15T15:43:15Z",
+      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
+      "errorType": "transient",
       "attemptCount": 1,
       "phases": {
         "apiMigration": false,
         "branchSync": false
+      }
+    },
+    "mitsue-v2": {
+      "name": "mitsue-v2",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
       },
-      "lastAttempt": "2026-05-10T04:50:49.266Z",
-      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
-      "errorType": "transient"
+      "githubPushedAt": "2026-05-14T12:47:35Z"
     }
   }
 }
