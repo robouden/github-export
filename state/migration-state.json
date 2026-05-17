@@ -8780,11 +8780,11 @@
     "ZPE": {
       "name": "ZPE",
       "status": "failed",
-      "lastAttempt": "2026-05-10T04:50:29.273Z",
+      "lastAttempt": "2026-05-17T04:57:20.698Z",
       "githubPushedAt": "2026-04-11T13:46:41Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 3,
+      "attemptCount": 4,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -8793,11 +8793,11 @@
     "Agent-fabric": {
       "name": "Agent-fabric",
       "status": "failed",
-      "lastAttempt": "2026-05-10T04:50:39.152Z",
+      "lastAttempt": "2026-05-17T04:57:30.224Z",
       "githubPushedAt": "2026-05-09T12:25:48Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -8806,11 +8806,11 @@
     "mitsue-ai-data-center": {
       "name": "mitsue-ai-data-center",
       "status": "failed",
-      "lastAttempt": "2026-05-10T04:50:49.266Z",
+      "lastAttempt": "2026-05-17T04:57:39.800Z",
       "githubPushedAt": "2026-05-15T15:43:15Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -8818,13 +8818,16 @@
     },
     "mitsue-v2": {
       "name": "mitsue-v2",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "failed",
+      "githubPushedAt": "2026-05-14T12:47:35Z",
+      "attemptCount": 1,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       },
-      "githubPushedAt": "2026-05-14T12:47:35Z"
+      "lastAttempt": "2026-05-17T04:57:49.211Z",
+      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
+      "errorType": "transient"
     }
   }
 }
