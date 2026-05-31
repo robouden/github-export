@@ -2,8 +2,8 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-05-24T05:07:14.716Z",
-  "totalRepos": 684,
+  "lastDiscovery": "2026-05-31T05:24:17.016Z",
+  "totalRepos": 685,
   "repos": {
     "aides-jeunes": {
       "name": "aides-jeunes",
@@ -7262,7 +7262,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T10:03:43.205Z",
-      "githubPushedAt": "2026-05-17T06:14:42Z",
+      "githubPushedAt": "2026-05-24T06:29:43Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8807,7 +8807,7 @@
       "name": "mitsue-ai-data-center",
       "status": "failed",
       "lastAttempt": "2026-05-24T05:08:00.894Z",
-      "githubPushedAt": "2026-05-24T02:08:59Z",
+      "githubPushedAt": "2026-05-31T05:22:32Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 3,
@@ -8828,6 +8828,16 @@
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "Mitsue_kids_workshop": {
+      "name": "Mitsue_kids_workshop",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-05-28T02:07:20Z"
     }
   }
 }
