@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-05-31T05:24:17.016Z",
+  "lastDiscovery": "2026-06-07T05:45:08.334Z",
   "totalRepos": 685,
   "repos": {
     "aides-jeunes": {
@@ -7262,7 +7262,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T10:03:43.205Z",
-      "githubPushedAt": "2026-05-24T06:29:43Z",
+      "githubPushedAt": "2026-05-31T06:51:56Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8807,7 +8807,7 @@
       "name": "mitsue-ai-data-center",
       "status": "failed",
       "lastAttempt": "2026-05-31T05:24:58.180Z",
-      "githubPushedAt": "2026-05-31T05:22:32Z",
+      "githubPushedAt": "2026-06-07T04:50:32Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 4,
@@ -8820,7 +8820,7 @@
       "name": "mitsue-v2",
       "status": "failed",
       "lastAttempt": "2026-05-31T05:25:07.119Z",
-      "githubPushedAt": "2026-05-23T00:00:04Z",
+      "githubPushedAt": "2026-06-07T05:24:36Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 3,
@@ -8832,15 +8832,15 @@
     "Mitsue_kids_workshop": {
       "name": "Mitsue_kids_workshop",
       "status": "failed",
+      "lastAttempt": "2026-05-31T05:25:16.060Z",
       "githubPushedAt": "2026-05-28T02:07:20Z",
+      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
+      "errorType": "transient",
       "attemptCount": 1,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "lastAttempt": "2026-05-31T05:25:16.060Z",
-      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
-      "errorType": "transient"
+      }
     }
   }
 }
