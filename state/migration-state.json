@@ -8780,11 +8780,11 @@
     "ZPE": {
       "name": "ZPE",
       "status": "failed",
-      "lastAttempt": "2026-07-19T04:27:14.535Z",
+      "lastAttempt": "2026-07-26T04:33:16.440Z",
       "githubPushedAt": "2026-04-11T13:46:41Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 12,
+      "attemptCount": 13,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -8793,11 +8793,11 @@
     "Agent-fabric": {
       "name": "Agent-fabric",
       "status": "failed",
-      "lastAttempt": "2026-07-19T04:27:24.650Z",
+      "lastAttempt": "2026-07-26T04:33:26.133Z",
       "githubPushedAt": "2026-05-09T12:25:48Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 10,
+      "attemptCount": 11,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -8806,11 +8806,11 @@
     "mitsue-ai-data-center": {
       "name": "mitsue-ai-data-center",
       "status": "failed",
-      "lastAttempt": "2026-07-19T04:27:34.643Z",
+      "lastAttempt": "2026-07-26T04:33:35.448Z",
       "githubPushedAt": "2026-07-25T02:55:53Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 10,
+      "attemptCount": 11,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -8819,11 +8819,11 @@
     "mitsue-v2": {
       "name": "mitsue-v2",
       "status": "failed",
-      "lastAttempt": "2026-07-19T04:27:44.683Z",
+      "lastAttempt": "2026-07-26T04:33:44.806Z",
       "githubPushedAt": "2026-07-18T13:53:10Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 9,
+      "attemptCount": 10,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -8832,11 +8832,11 @@
     "Mitsue_kids_workshop": {
       "name": "Mitsue_kids_workshop",
       "status": "failed",
-      "lastAttempt": "2026-07-19T04:27:54.695Z",
+      "lastAttempt": "2026-07-26T04:33:54.136Z",
       "githubPushedAt": "2026-05-28T02:07:20Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
-      "attemptCount": 7,
+      "attemptCount": 8,
       "phases": {
         "apiMigration": false,
         "branchSync": false
@@ -8844,13 +8844,16 @@
     },
     "imagearc": {
       "name": "imagearc",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "failed",
+      "githubPushedAt": "2026-07-21T09:18:27Z",
+      "attemptCount": 1,
       "phases": {
         "apiMigration": false,
         "branchSync": false
       },
-      "githubPushedAt": "2026-07-21T09:18:27Z"
+      "lastAttempt": "2026-07-26T04:34:03.518Z",
+      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
+      "errorType": "transient"
     }
   }
 }
