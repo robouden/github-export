@@ -2,8 +2,8 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-07-19T04:26:43.767Z",
-  "totalRepos": 685,
+  "lastDiscovery": "2026-07-26T04:32:47.048Z",
+  "totalRepos": 686,
   "repos": {
     "aides-jeunes": {
       "name": "aides-jeunes",
@@ -7262,7 +7262,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T10:03:43.205Z",
-      "githubPushedAt": "2026-07-12T05:48:24Z",
+      "githubPushedAt": "2026-07-19T05:42:39Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8807,7 +8807,7 @@
       "name": "mitsue-ai-data-center",
       "status": "failed",
       "lastAttempt": "2026-07-19T04:27:34.643Z",
-      "githubPushedAt": "2026-07-18T17:39:50Z",
+      "githubPushedAt": "2026-07-25T02:55:53Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 10,
@@ -8841,6 +8841,16 @@
         "apiMigration": false,
         "branchSync": false
       }
+    },
+    "imagearc": {
+      "name": "imagearc",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-07-21T09:18:27Z"
     }
   }
 }
