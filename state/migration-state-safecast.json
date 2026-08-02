@@ -2,8 +2,8 @@
   "version": 1,
   "sourceOrg": "Safecast",
   "targetOrg": "Safecast",
-  "lastDiscovery": "2026-07-26T05:51:31.471Z",
-  "totalRepos": 67,
+  "lastDiscovery": "2026-08-02T05:47:22.039Z",
+  "totalRepos": 68,
   "repos": {
     "safecast.org": {
       "name": "safecast.org",
@@ -219,7 +219,7 @@
       "lastAttempt": "2026-03-29T09:46:52.635Z",
       "completedAt": "2026-03-29T09:47:09.013Z",
       "lastSyncedAt": "2026-03-29T09:47:09.013Z",
-      "githubPushedAt": "2026-07-26T05:46:39Z",
+      "githubPushedAt": "2026-07-26T06:19:12Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -856,7 +856,7 @@
       "lastAttempt": "2026-03-29T09:53:50.597Z",
       "completedAt": "2026-03-29T09:57:35.086Z",
       "lastSyncedAt": "2026-03-29T09:57:35.086Z",
-      "githubPushedAt": "2026-07-14T14:28:08Z",
+      "githubPushedAt": "2026-07-27T15:33:01Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -875,6 +875,16 @@
         "apiMigration": true,
         "branchSync": true
       }
+    },
+    "Airquality-reporting": {
+      "name": "Airquality-reporting",
+      "status": "pending",
+      "attemptCount": 0,
+      "phases": {
+        "apiMigration": false,
+        "branchSync": false
+      },
+      "githubPushedAt": "2026-07-30T18:12:30Z"
     }
   }
 }
