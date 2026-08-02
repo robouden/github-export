@@ -878,13 +878,16 @@
     },
     "Airquality-reporting": {
       "name": "Airquality-reporting",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-07-30T18:12:30Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-07-30T18:12:30Z"
+      "lastAttempt": "2026-08-02T05:47:51.466Z",
+      "completedAt": "2026-08-02T05:47:53.185Z",
+      "lastSyncedAt": "2026-08-02T05:47:53.185Z"
     }
   }
 }
