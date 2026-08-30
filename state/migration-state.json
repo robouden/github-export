@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-08-23T02:25:35.609Z",
+  "lastDiscovery": "2026-08-30T06:27:05.933Z",
   "totalRepos": 688,
   "repos": {
     "aides-jeunes": {
@@ -7262,7 +7262,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T10:03:43.205Z",
-      "githubPushedAt": "2026-08-16T03:40:10Z",
+      "githubPushedAt": "2026-08-23T03:42:14Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8807,7 +8807,7 @@
       "name": "mitsue-ai-data-center",
       "status": "failed",
       "lastAttempt": "2026-08-23T02:26:25.722Z",
-      "githubPushedAt": "2026-08-20T02:49:28Z",
+      "githubPushedAt": "2026-08-28T01:38:29Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 15,
@@ -8872,7 +8872,7 @@
       "name": "Haikus",
       "status": "failed",
       "lastAttempt": "2026-08-23T02:27:15.620Z",
-      "githubPushedAt": "2026-08-09T05:57:33Z",
+      "githubPushedAt": "2026-08-23T13:59:39Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 3,
