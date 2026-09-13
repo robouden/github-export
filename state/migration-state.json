@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-09-06T05:44:56.669Z",
+  "lastDiscovery": "2026-09-13T05:54:36.027Z",
   "totalRepos": 689,
   "repos": {
     "aides-jeunes": {
@@ -7262,7 +7262,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T10:03:43.205Z",
-      "githubPushedAt": "2026-08-30T08:43:51Z",
+      "githubPushedAt": "2026-09-06T07:26:38Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8315,7 +8315,7 @@
       "lastAttempt": "2026-03-29T06:32:02.330Z",
       "completedAt": "2026-03-29T06:33:12.819Z",
       "lastSyncedAt": "2026-03-29T06:33:12.819Z",
-      "githubPushedAt": "2026-04-24T02:02:38Z",
+      "githubPushedAt": "2026-09-12T16:29:35Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8807,7 +8807,7 @@
       "name": "mitsue-ai-data-center",
       "status": "failed",
       "lastAttempt": "2026-09-06T05:45:48.159Z",
-      "githubPushedAt": "2026-09-06T01:18:09Z",
+      "githubPushedAt": "2026-09-12T16:40:34Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 17,
@@ -8884,15 +8884,15 @@
     "Koi": {
       "name": "Koi",
       "status": "failed",
+      "lastAttempt": "2026-09-06T05:46:47.830Z",
       "githubPushedAt": "2026-09-04T09:31:25Z",
+      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
+      "errorType": "transient",
       "attemptCount": 1,
       "phases": {
         "apiMigration": false,
         "branchSync": false
-      },
-      "lastAttempt": "2026-09-06T05:46:47.830Z",
-      "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
-      "errorType": "transient"
+      }
     }
   }
 }
