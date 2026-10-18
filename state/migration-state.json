@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "",
   "targetOrg": "",
-  "lastDiscovery": "2026-10-11T06:59:15.635Z",
+  "lastDiscovery": "2026-10-18T05:40:40.616Z",
   "totalRepos": 691,
   "repos": {
     "aides-jeunes": {
@@ -7262,7 +7262,7 @@
       "lastAttempt": "2026-01-22T08:40:17.941Z",
       "completedAt": "2026-01-22T08:40:27.125Z",
       "lastSyncedAt": "2026-02-07T10:03:43.205Z",
-      "githubPushedAt": "2026-10-04T09:09:40Z",
+      "githubPushedAt": "2026-10-11T09:30:46Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -8807,7 +8807,7 @@
       "name": "mitsue-ai-data-center",
       "status": "failed",
       "lastAttempt": "2026-10-11T07:00:02.223Z",
-      "githubPushedAt": "2026-10-10T17:09:01Z",
+      "githubPushedAt": "2026-10-18T00:27:10Z",
       "error": "Codeberg API error: 500 - {\"message\":\"\",\"url\":\"https://codeberg.org/api/swagger\"}\n",
       "errorType": "transient",
       "attemptCount": 22,
