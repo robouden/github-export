@@ -2,7 +2,7 @@
   "version": 1,
   "sourceOrg": "Safecast",
   "targetOrg": "Safecast",
-  "lastDiscovery": "2026-10-18T07:35:06.442Z",
+  "lastDiscovery": "2026-10-25T07:56:37.065Z",
   "totalRepos": 68,
   "repos": {
     "safecast.org": {
@@ -492,7 +492,7 @@
       "lastAttempt": "2026-03-29T09:50:21.071Z",
       "completedAt": "2026-03-29T09:52:45.744Z",
       "lastSyncedAt": "2026-03-29T09:52:45.744Z",
-      "githubPushedAt": "2026-09-09T01:30:49Z",
+      "githubPushedAt": "2026-10-20T15:48:33Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
@@ -856,7 +856,7 @@
       "lastAttempt": "2026-03-29T09:53:50.597Z",
       "completedAt": "2026-03-29T09:57:35.086Z",
       "lastSyncedAt": "2026-03-29T09:57:35.086Z",
-      "githubPushedAt": "2026-10-07T15:45:17Z",
+      "githubPushedAt": "2026-10-24T20:16:15Z",
       "attemptCount": 1,
       "phases": {
         "apiMigration": true,
