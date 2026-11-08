@@ -891,13 +891,16 @@
     },
     "safecast-live": {
       "name": "safecast-live",
-      "status": "pending",
-      "attemptCount": 0,
+      "status": "completed",
+      "githubPushedAt": "2026-11-07T18:11:16Z",
+      "attemptCount": 1,
       "phases": {
-        "apiMigration": false,
-        "branchSync": false
+        "apiMigration": true,
+        "branchSync": true
       },
-      "githubPushedAt": "2026-11-07T18:11:16Z"
+      "lastAttempt": "2026-11-08T09:45:11.405Z",
+      "completedAt": "2026-11-08T09:45:17.896Z",
+      "lastSyncedAt": "2026-11-08T09:45:17.896Z"
     }
   }
 }
